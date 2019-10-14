@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: black;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+.container .left-side {
+  display: block;
+}
+.container .left-side .logo {
+  margin: 0 300px 0 0;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.container .left-side .logo p {
+  margin: 0 300px 0 0;
+  text-align: center;
+  font-size: 16px;
+}
+.container .right-side {
+  display: flex;
+}
+.container .right-side li a {
+  text-decoration: none;
+  text-align: none;
+  color: white;
+}
+.about .avatar .images {
+  border-radius: 300px;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 50px auto;
+}
+.about .avatar .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about .ava-text h4 {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0 0 50px 0;
+}
+table {
+  margin: 0 auto;
+}
+table tbody th {
+  color: white;
+  font-weight: normal;
+  text-align: left;
+  padding: 0 50px 0 0;
+}
+table tbody td {
+  color: white;
+  text-align: left;
+  padding: 0 0 0 50px;
+}
+table tbody td a {
+  text-decoration: none;
+  text-align: none;
+  color: white;
+}
