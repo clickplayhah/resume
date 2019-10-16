@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Julius Sans One", sans-serif;
-  background-color: black;
+  background-color: #3f423e;
 }
 .container {
   margin: 0 auto;
@@ -21,6 +21,9 @@ body {
   color: white;
   text-align: center;
 }
+.container .left-side .logo:hover {
+  color: #9ba199;
+}
 .container .left-side .logo p {
   margin: 0 300px 0 0;
   text-align: center;
@@ -29,10 +32,17 @@ body {
 .container .right-side {
   display: flex;
 }
+.container .right-side li {
+  list-style-type: none;
+  text-align: center;
+}
 .container .right-side li a {
   text-decoration: none;
-  text-align: none;
+  padding: 10px;
   color: white;
+}
+.container .right-side li a:hover {
+  color: #9ba199;
 }
 .about .avatar .images {
   border-radius: 300px;
@@ -74,4 +84,16 @@ table tbody td a {
   text-decoration: none;
   text-align: none;
   color: white;
+}
+.skills h2 {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 80px 0 0 0;
+}
+.skills ul {
+  color: white;
+  text-align: center;
+  font-weight: normal;
 }

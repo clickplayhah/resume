@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: "Julius Sans One", sans-serif;
-  background-color: black;
+  background-color: #3f423e;
 }
+
 .container {
   margin: 0 auto;
   max-width: 960px;
@@ -19,20 +20,28 @@ body {
       text-decoration: none;
       color: white;
       text-align: center;
+      &:hover {
+        color: #9ba199;
+      }
       p {
         margin: 0 300px 0 0;
         text-align: center;
         font-size: 16px;
       }
-    }
+    } 
   }
   .right-side {
     display: flex;
     li {
+      list-style-type: none;
+      text-align: center;
       a {
         text-decoration: none;
-        text-align: none;
+        padding: 10px;
         color: white;
+        &:hover {
+          color: #9ba199;
+        }
       }
     }
   }
@@ -66,15 +75,13 @@ body {
   }
 }
 table {
-    margin: 0 auto;
+  margin: 0 auto;
   tbody {
-
     th {
       color: white;
       font-weight: normal;
       text-align: left;
       padding: 0 50px 0 0;
-      
     }
     td {
       color: white;
@@ -86,5 +93,19 @@ table {
         color: white;
       }
     }
+  }
+}
+.skills {
+  h2 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 80px 0 0 0;
+  }
+  ul {
+    color: white;
+    text-align: center;
+    font-weight: normal
   }
 }
